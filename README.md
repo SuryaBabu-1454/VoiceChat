@@ -66,7 +66,7 @@ This will start the frontend on http://localhost:3000. You can now interact with
 1. Install Electron
 Install Electron as a development dependency:
 
-  npm install electron --save-dev
+  npm install --save-dev electron electron-builder
 
     
 # Add Electron start script
@@ -74,7 +74,8 @@ In your package.json, add the following script to start Electron:
 
 "scripts": {
   "start": "react-scripts start",
-  "electron": "electron ."
+  "electron": "electron .",
+    "build": "vite build && electron-builder"
 }
 
 # Run Electron Application
@@ -105,3 +106,12 @@ Solution: Make sure your microphone is working properly and that the correct per
 # 3.  The app is not converting into a desktop application using Electron.
 Solution: Make sure you have the electron package installed, and ensure you're running Electron with npm run electron after starting the React app with npm run dev.
 
+
+# electron-builder 
+This electron-builder , after completions all the stuffs.
+
+    npm run build
+
+  This take a time for creating a Desktop Application
+
+  after completion the electron builder to check the dist folder in Your Project file
