@@ -41,7 +41,6 @@ Download the Vosk model (vosk-model-small-en-us-0.15) from the Vosk repository a
     
 This will start the Flask server on port 5000, and it will listen for HTTP requests at http://localhost:5000/start.
 
-# __________________________________________________________________________________________________________________________
 
 # Frontend Setup
 The frontend is a React application that allows the user to interact with the backend for speech recognition. It communicates with the backend via HTTP requests to get the recognized text.
@@ -60,7 +59,7 @@ Run the frontend application:
 This will start the frontend on http://localhost:3000. You can now interact with the frontend and press the "Start Voice Chat" button to begin voice recognition.
 
 
-# __________________________________________________________________________________________________________________________
+
 
 # Convert to Desktop App using Electron
 1. Install Electron
@@ -88,7 +87,7 @@ In a separate terminal, run Electron:
 ------->  npm run electron
 
 This will open the application as a desktop app in an Electron window.
-# _____________________________________________________________________________________________________________________
+
 
 
 # Troubleshooting
@@ -102,6 +101,6 @@ Solution: Ensure that the backend is running on the correct port (5000) and the 
 # 2. Voice recognition is not working.
 Solution: Make sure your microphone is working properly and that the correct permissions are granted. Ensure that the Vosk model is correctly loaded.
 
-# oppo3. The app is not converting into a desktop application using Electron.
+# The app is not converting into a desktop application using Electron.
 Solution: Make sure you have the electron package installed, and ensure you're running Electron with npm run electron after starting the React app with npm run dev.
 
