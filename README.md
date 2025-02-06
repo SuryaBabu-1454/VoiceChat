@@ -22,7 +22,8 @@ In the backend folder, install the necessary Python dependencies:
 In the frontend folder, install the required dependencies for React:
 
     cd frontend
-    npm install
+    npm install 
+    npm insatll axios
 
     
  # Backend Setup
@@ -36,7 +37,7 @@ Download the Vosk model (vosk-model-small-en-us-0.15) from the Vosk repository a
 
 # Run the backend server:
 
- ---->   python app.py
+  python app.py
 
     
 This will start the Flask server on port 5000, and it will listen for HTTP requests at http://localhost:5000/start.
@@ -48,13 +49,13 @@ The frontend is a React application that allows the user to interact with the ba
 # Steps to set up the frontend:
 In the frontend folder, install the required dependencies:
 
-------->    npm install
+  npm install
         
 # Start the backend server first before starting the frontend.
 
 Run the frontend application:
 
-------->   npm run dev
+  npm run dev
 
 This will start the frontend on http://localhost:3000. You can now interact with the frontend and press the "Start Voice Chat" button to begin voice recognition.
 
@@ -65,7 +66,7 @@ This will start the frontend on http://localhost:3000. You can now interact with
 1. Install Electron
 Install Electron as a development dependency:
 
-------->  npm install electron --save-dev
+  npm install electron --save-dev
 
     
 # Add Electron start script
@@ -80,11 +81,11 @@ In your package.json, add the following script to start Electron:
 
 before running Electron app running Frontend
 
-------> npm run dev
+ npm run dev
 
 In a separate terminal, run Electron:
 
-------->  npm run electron
+  npm run electron
 
 This will open the application as a desktop app in an Electron window.
 
