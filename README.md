@@ -102,6 +102,6 @@ Solution: Ensure that the backend is running on the correct port (5000) and the 
 # 2. Voice recognition is not working.
 Solution: Make sure your microphone is working properly and that the correct permissions are granted. Ensure that the Vosk model is correctly loaded.
 
-# The app is not converting into a desktop application using Electron.
+# 3.  The app is not converting into a desktop application using Electron.
 Solution: Make sure you have the electron package installed, and ensure you're running Electron with npm run electron after starting the React app with npm run dev.
 
